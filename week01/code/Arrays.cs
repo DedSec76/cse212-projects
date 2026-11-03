@@ -6,14 +6,6 @@ public static class Arrays
     /// integer greater than 0.
     /// </summary>
     /// <returns>array of doubles that are the multiples of the supplied number</returns>
-    public static void Run() {
-        double[] multiples = MultiplesOf(5, 6);
-        List<int> numbers = new() {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        RotateListRight(numbers, 12);
-
-        Console.WriteLine("<List>{" + string.Join(", ", multiples) + "}"); // <List>{5, 10, 15, 20, 25, 30}
-        Console.WriteLine("<List>{" + string.Join(", ", numbers) + "}"); // <List>{7, 8, 9, 1, 2, 3, 4, 5, 6}
-    }
     public static double[] MultiplesOf(double number, int length)
     {
         // TODO Problem 1 Start
